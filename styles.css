@@ -311,13 +311,11 @@ body {
 }
 
 .connection-line {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 150px;
+    width: 80px;
     height: 3px;
-    background: var(--green);
+    background: var(--lilac);
+    margin: 0 30px;
+    flex-shrink: 0;
 }
 
 .connection-line::after {
@@ -328,7 +326,7 @@ body {
     transform: translateX(-50%);
     width: 3px;
     height: 80px;
-    background: var(--green);
+    background: var(--lilac);
 }
 
 .tree-row.children {
